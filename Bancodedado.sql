@@ -6,7 +6,7 @@
  * Author:  Felipe Atamanczuk
  * Created: 28 de abr. de 2024
  */
-SELECT * FROM tb_eventos;
+SELECT * FROM tb_usuario;
 
 
 

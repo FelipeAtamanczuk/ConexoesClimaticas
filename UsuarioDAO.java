@@ -7,7 +7,7 @@ public class UsuarioDAO {
     //tipo de retorno, nome, lista de parametros, corpo
    public Usuario existe(Usuario u) throws Exception {
         //1. Especificar o comando SQL (SELECT)
-        var sql = "SELECT * FROM tb_usuarios WHERE login = ? AND  senha = ?";
+        var sql = "SELECT * FROM tb_usuario WHERE login = ? AND  senha = ?";
         //2. Estabelecer uma conexão com o banco
         var conexao = new ConnectionFactory().conectar();
         //3. Preparar o comando
